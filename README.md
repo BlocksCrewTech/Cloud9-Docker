@@ -73,7 +73,7 @@ services:
     volumes:
       - ~/cloud9:/BOT
     ports:
-      - 8181:8000    # Map host port 8181 to container port 8000
+      - 8181:8000    # You can customize the host port (8181), but the container port (8000) is fixed.
     restart: always
 ```
 Option 2: Ready-to-Use Setup (v2)
