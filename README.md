@@ -60,7 +60,7 @@ mkdir -p ~/cloud9 && cd ~/cloud9
 Create a docker-compose.yml file in your ~/cloud9 directory.
 
 Option 1: Minimal Setup (latest)
-Create a docker-compose-latest.yml:
+Create a `docker-compose-latest.yml`:
 ```bash
 services:
   cloud9:
@@ -77,7 +77,7 @@ services:
     restart: always
 ```
 Option 2: Ready-to-Use Setup (v2)
-Create a docker-compose-v2.yml:
+Create a `docker-compose-v2.yml`:
 ```bash
 services:
   cloud9:
